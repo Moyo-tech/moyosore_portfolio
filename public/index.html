@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOYOSORE WEKE</title>
+    <link rel="stylesheet" href="./src/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.toggle').click(function() {
+                $('.toggle').toggleClass('active')
+
+                $('nav').toggleClass('active')
+            })
+        });
+    </script>
+
+</head>
+
+<body>
+    <section id="main">
+        <!-- Navigation -->
+        <nav>
+            <!--Logo-->
+            <a href="#" class="logo">MOYO</a>
+            <!--Nav bar-->
+            <div class="toggle"></div>
+            <div class="nav-links">
+                <ul class="menu">
+                    <li class="active"><a href="#main">HOME</a></li>
+                    <li><a href="#about-container">ABOUT</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#project">PROJECTS</a></li>
+                    <li><a href="#hobbies">HOBBIES</a></li>
+                    <li><a href="#education">EDUCATION</a></li>
+                    <li><a href="#contact-btn">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <!-- Header -->
+    <header>
+        <div class='name'>
+            <p>Hello</p>
+            <h1>I'm <span class="namecolor">Moyosore </span>Weke </h1>
+            <p class='summary'>Software Engineer & Data enthusiast </p>
+            <br>
+            <a href="https://drive.google.com/file/d/1NpeX5gyaNwFNc3pctohR4UJu96mXtqy7/view?usp=sharing" class="cv-btn" target="_blank">Download CV</a>
+        </div>
+
+    </header>
+
+    <!-- About me  -->
+    <main>
+        <section id="about-container">
+            <img src="./src/moyoimg.png" alt="">
+            <div class="about-text">
+                <h1>About Me</h1>
+                <h2>Software Engineer</h2>
+                <p>I am Moyo. I'm a data and solutions-driven Computer Science student enthusiastic about technology, Software engineering and other Web Development Practices.
+                </p>
+                <br>
+                <button><a href="https://drive.google.com/file/d/1NpeX5gyaNwFNc3pctohR4UJu96mXtqy7/view?usp=sharing"
+                        target="_blank">View more Details</a></button>
+            </div>
+
+        </section>
+
+        <!-- Skills -->
+        <section id="skills">
+            <!--skills heading -->
+            <div class="s-heading">
+                <h1>Skills</h1>
+                <p>Below are my skills and Expertises
+                </p>
+                <p>Image Source: Istock</p>
+
+
+            </div>
+
+            <!--skills box container-->
+
+            <div class=skillbox-container>
+                <!--Box 1-->
+                <div class="skill-box">
+                    <div class="box-img">
+                        <div class="skill-type">Frontend</div>
+                        <img sizes="(max-width: 592px) 100vw, 592px" src="./src/FRONTEND.jpg" alt="">
+                    </div>
+                    <div class="box-text">
+                        <a href="#">I have 2 years experience in HTML and CSS and I have worked on 10+ projects
+                            including hackathons which I participated in. </a>
+                    </div>
+                </div>
+
+                <!--Box 2-->
+                <div class="skill-box">
+                    <div class="box-img">
+                        <div class="skill-type">Programming</div>
+                        <img src="./src/PROGRAMMING.jpg" alt="">
+                    </div>
+                    <div class="box-text">
+                        <a href="#">I am proficient in Python for backend development as well as Data analytics, I also
+                            code in JAVA<a>
+                    </div>
+                </div>
+
+
+                <!--Box 3-->
+                <div class="skill-box">
+                    <div class="box-img">
+                        <div class="skill-type">Data Procressing </div>
+                        <img src="./src/DATA.jpg" alt="">
+                    </div>
+                    <div class="box-text">
+                        <a href="#">I have experience as a Data Scientist in Data manipulation, visualisation, data
+                            storytelling as well as some machine learning practices </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--PROJECTS I HAVE WORKED ON-->
+        <div id="project">
+            <div class="projects">
+                <!--text-->
+                <div class="Projects-text ">
+                    <p>Projects</p>
+                    <p class="projects-sub">Projects I have worked on so far</p>
+                    <p>Below are some of the projects I have worked on, including personal projects, class projects, hackathons and competitions projects which I have participated in as well as Research projects on Tech.
+                    </p>
+                    <br>
+                    <a href="https://github.com/Moyo-tech" target="_blank">View my Github</a>
+                </div>
+
+                <div class="project-container">
+                    <!--1------------->
+                    <div class="box-1">
+                        <span>1</span>
+                        <p class="heading">Drolato Website</p>
+                        <p class="details">Drolato is an ice cream company that deals with delivering ice cream through drones; this website is the new, improved website of Drolato compared to the previous website, which was just plain with unaligned padding and contents.</p>
+                        <a href="https://github.com/Moyo-tech/Drolato-website-project" class="project-btn" target="_blank">View Project</a>
+                    </div>
+                    <!--2------------->
+                    <div class="box-2">
+                        <span>2</span>
+                        <p class="heading">Heroes Application Website</p>
+                        <p class="details">A Full-stack web application that performs Create, Read, Update and Delete operations (CRUD), including a Login and Registration system for security to specific users. Utilising Bootstrap, Figma, HTML and
+                            CSS for the Frontend and PHP and Mysql for the Backend</p>
+                        <a href="https://github.com/Moyo-tech/heros-web-application" class="project-btn" target="_blank">View
+                            Project</a>
+                    </div>
+                    <!--3------------->
+                    <div class="box-3">
+                        <span>3</span>
+                        <p class="heading">Reddit Clone-Reddim</p>
+                        <p class="details">A Full stack web application clone of the Reddit website.
+                            Utilizing frontend frameworks like React, Redux and Material UI while the backend was built with the MERN stack(
+                            MongoDB, Express,JS and NodeJs). The wireframe of the website was designed using Figma</p>
+                        <a href="https://reddim-app.herokuapp.com/" class="project-btn" target="_blank">Live Website</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--HOBBIES-->
+        <section id="hobbies">
+            <!--heading----------->
+            <h1 class="h-headind">Hobbies</h1>
+            <p>Image Source: Istock</p>
+            <!--hobbies-container------------>
+            <div class="h-container">
+                <!--hobbies-box-1-------->
+                <div class="h-box">
+                    <!--text--------->
+                    <div class="overlay-text">
+                        <h1>Dancing</h1>
+
+                    </div>
+                    <!--bg-img------------->
+                    <img src="./src/Dancing.jpg">
+
+
+                </div>
+                <!--hobbies-box-2-------->
+                <div class="h-box">
+                    <!--text--------->
+                    <div class="overlay-text">
+                        <h1>Watching Movies</h1>
+
+                    </div>
+                    <!--bg-img------------->
+                    <img src="./src/watching movies.jpg">
+                </div>
+                <!--hobbies-box-3-------->
+                <div class="h-box">
+                    <!--text--------->
+                    <div class="overlay-text">
+                        <h1>Music</h1>
+
+                    </div>
+                    <!--bg-img------------->
+                    <img src="./src/SINGING.jpg">
+                </div>
+                <!--hobbies-box-4-------->
+                <div class="h-box">
+                    <!--text--------->
+                    <div class="overlay-text">
+                        <h1>Reading</h1>
+
+                    </div>
+                    <!--bg-img------------->
+                    <img src="./src/reading.jpg">
+                </div>
+                <!--portfolio-box-5-------->
+                <div class="h-box">
+                    <!--text--------->
+                    <div class="overlay-text">
+                        <h1> Playing Instruments</h1>
+
+                    </div>
+                    <!--bg-img------------->
+                    <img src="./src/instruments.jpg">
+                </div>
+                <!--portfolio-box-6-------->
+                <div class="h-box">
+                    <!--text--------->
+                    <div class="overlay-text">
+                        <h1>Sewing</h1>
+
+                    </div>
+                    <!--bg-img------------->
+                    <img src="./src/ewing.jpg">
+                </div>
+
+            </div>
+        </section>
+
+        <!--EDUCATION-->
+        <section id="education">
+            <!--skills heading -->
+            <div class="e-heading">
+                <h1>Education</h1>
+            </div>
+            <!--Education Table-->
+            <table class="education-table">
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>School</th>
+                        <th>Duration</th>
+                        <th>Certificate</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>African Leadership University</td>
+                        <td>January 2021 - April 2024</td>
+                        <td>Bsc. Computer Science (Honors)</td>
+                    </tr>
+                    <tr class="active-row">
+                        <td>2</td>
+                        <td>Coursera</td>
+                        <td>May 2021 - June 2021</td>
+                        <td>Programming For Everybody (Getting Started with Python)</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Codeacademy</td>
+                        <td>June 2021 - August 2021</td>
+                        <td>Learn Python 3</td>
+                    </tr>
+
+                    <tr class="active-row">
+                        <td>4</td>
+                        <td>Data Camp</td>
+                        <td>January 2022 - Present</td>
+                        <td>Machine Learning Scientist with Python</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!--Contact-btn------------------>
+        <section id="contact-btn">
+            <!--heading-------------->
+            <h1 class="c-b-heading">If You Have Any Project In Your Mind ?</h1>
+            <!--btn-------->
+            <a href="mailto:wekemoyo@gmail.com?subject=Mail from xyz.com&body=Dear xyz.com" target="_blank">Contact
+                Me</a>
+
+        </section>
+    </main>
+
+    <!--FOOTER-->
+    <footer>
+        <p>Moyosore Weke</p>
+        <p>You can also find me on Social Media</p>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/moyosore-weke-4707441b3/" target="_blank"><i
+                    class="fa fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/_moyoweke/" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://twitter.com/_moyoweke" target="_blank"><i class="fa fa-twitter"></i></a>
+        </div>
+
+        <div class="left-col">
+            <i class="fa fa-phone"> +250780314747</i><br><br>
+            <i class="fa fa-envelope"> wekemoyo@gmail.com</i><br><br>
+            <i class="fa fa-map-marker"> Rwanda</i>
+
+        </div>
+        <br>
+        <p>Made with <i class="fa fa-heart-o"></i> by WekeMoyo </p>
+    </footer>
+</body>
+
+
+
+</html>
